@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.conteiner
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #2b323c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner h1
+{
+    font-size: 80px;
+    font-weight: 600px;
+}
+
+
+
+.bubbles
+{
+    position: relative;
+    display: flex;
+}
+.bubbles span
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: no-repeat url(serce0.png);
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    margin: 0 1px;
+    border-radius: 0%;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even)
+{
+    background: no-repeat url(emotka0.png);
+    background-size: cover;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(98vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+.button
+{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 60%;
+    cursor: pointer;
+}
+.button button
+{
+    background: linear-gradient(45deg, #c4b7d5, #966cb8);;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button button a
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2b323c;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.button button:hover
+{
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 10px #966cb8;
+}
+
+
+
+
