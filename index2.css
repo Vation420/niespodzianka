@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 89vh;
-    background: #2b323c;
+    background: #966cb8;
     color: #fff;
     display: flex;
     align-items: center;
@@ -50,6 +50,7 @@
     transition-duration: 0.5s;
     box-shadow: 5px 5px 10px #966cb8;
 }
+
 
 
 

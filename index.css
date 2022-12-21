@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    color: #ef4b53;
 }
 
 .conteiner
@@ -11,7 +12,7 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: #2b323c;
+    background: #966cb8;
     color: #fff;
     display: flex;
     align-items: center;
@@ -46,7 +47,7 @@
 }
 .bubbles span:nth-child(even)
 {
-    background: no-repeat url(emotka0.png);
+    background: no-repeat url(emotka01.png);
     background-size: cover;
 }
 @keyframes animate
@@ -90,8 +91,9 @@
 .button button:hover
 {
     transition-duration: 0.5s;
-    box-shadow: 5px 5px 10px #966cb8;
+    box-shadow: 5px 5px 10px #fad903;
 }
+
 
 
 
